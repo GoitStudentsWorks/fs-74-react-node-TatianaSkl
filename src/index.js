@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter basename="/project-SportWave23">
+      <BrowserRouter basename="/fs-74-react-node-TatianaSkl">
         <ThemeProvider theme={theme}>
           <Global styles={GlobalStyles} />
           <App />
